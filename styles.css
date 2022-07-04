@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#home {
+    background-image: url(./images/BackGround.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.container span{
+    color: rgb(114, 243, 63);
+    font-weight: bold;
+}
+
+.icon span {
+    color: #212529;
+}
+
+.home-page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: #212529;
+}
+
+.fromUk {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.circle {
+    background: rgb(239, 255, 253);
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(77, 119, 255);
+    color: rgb(77, 119, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 80%;
+}
+
+.card-content {
+    border: 2px solid rgba(128, 128, 128, 0.527);
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+
+.card-1 div {
+    margin-bottom: 5px;
+}
+.client-msg {
+    text-align: center;
+}
+
+.circle-img {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.lift-container textarea {
+    resize: vertical;
+}
+
+.success:hover {
+    color: rgb(114, 243, 63);
+}
+
+.success-story:hover {
+    filter: drop-shadow(0 0 .5rem rgb(114, 243, 63));
+}
+
+#about-sec .left-container img {
+    max-height: 400px;
+}
+
